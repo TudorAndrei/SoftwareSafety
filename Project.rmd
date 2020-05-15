@@ -1,0 +1,48 @@
+---
+title: "Tenerife airport disaster"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+author: "Tudor Andrei Dumitrascu"
+document_class: article
+fontsize: 12pt
+urlcolor: blue
+header-includes:
+ - \usepackage{fancyhdr}
+ - \usepackage{lastpage}
+ - \pagestyle{fancy}
+ - \fancyhead[L]{Tudor Andrei Dumitrascu}
+ - \fancyhead[R]{Student no. 1900854}
+ - \fancyfoot[C]{\thepage/\pageref{LastPage}}
+ - \fancypagestyle{plain}{\pagestyle{fancy}}
+output:
+    pdf_document:
+        latex_engine: xelatex
+        toc: true
+        toc_depth: 2
+        number_sections: true
+        extra_dependencies: xcolor
+---
+
+\pagebreak
+
+
+# Problem/system description (max 5 points)
+
+# Defining accidents (max 5 points)
+
+# Identifying hazards (max 8 points)
+
+# Defining safety constraints corresponding to hazards (max 8 points)
+
+# Creating the control structure of the system (max 13 points)
+
+# STPA
+
+## Identifying unsafe control actions (STPA step 1) (max 8 points)
+
+## Identifying causes of the unsafe control actions (STPA step 2) (max 8 points)
+
+# Defining safety controls for the items identified at points 6 and 7 above (max 10 points)
+
+# References:
+
+- [Eugene Register-Guard - Mar 28, 1977](https://news.google.com/newspapers?id=j9ZVAAAAIBAJ&sjid=JOADAAAAIBAJ&pg=6267%2C6928131)

@@ -2,30 +2,73 @@
 title: "Tenerife airport disaster"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 author: "Tudor Andrei Dumitrascu"
-document_class: article
+document_class: document
 fontsize: 12pt
-urlcolor: blue
 header-includes:
  - \usepackage{fancyhdr}
+ - \usepackage{textcomp}
  - \usepackage{lastpage}
  - \pagestyle{fancy}
  - \fancyhead[L]{Tudor Andrei Dumitrascu}
  - \fancyhead[R]{Student no. 1900854}
  - \fancyfoot[C]{\thepage/\pageref{LastPage}}
  - \fancypagestyle{plain}{\pagestyle{fancy}}
+linkcolor: black
+urlcolor: blue
 output:
     pdf_document:
         latex_engine: xelatex
-        toc: true
         toc_depth: 2
         number_sections: true
         extra_dependencies: xcolor
 ---
-
+\pagebreak
+\tableofcontents
 \pagebreak
 
 
 # Problem/system description (max 5 points)
+
+## Introduction
+
+This a report on the aircraft accident that occurred on 27th of March in 1977, between a Boeing 747-121 operated by Pan American World Airways and Boeing 747-206B operated by KLM Royal Dutch Airlines, on the Tenerife-Los Rodeos International Airport(Spain). This was considered the worst airplane accident in history before 2001, and now is the second worst, after the 9/11 terrorist attack. The crash resulted in both aircrafts being destroyed and written off(damaged beyond repair), 583 people killed and 61 injured.
+
+
+## History
+
+On the 27th of March at 12:30, a bomb explodes on the Las Palmas terminal, and due to the treat of a second bomb the airport is closed. Most of the flights were redirected to the Tenerife-Los rodeos International Airport(TCI), Spain. Two of them were the KLM Flight 4805 from Amsterdam en route to Las Palmas, and the PanAm Flight 1736 from Los Angeles en route to Las Palmas.
+
+Initially the KLM passengers were not permitted to leave the airplane, but after 20 minutes, they were transported by bus to the terminal.
+
+When the Las Palmas airport was operational again, the PanAm 1736 crew prepared for departure to Las Palmas, the final destination. When they attempted to taxi on the taxiway leading to runway 12, they discovered that they were blocked by KLM 4805. Due to the insufficient clearance for the aircraft to pass the KLM aircraft, they were compelled to wait for the former to start to taxi. The passengers were not allowed to leave the aeroplane, the whole time the airplane was in the airport.
+
+At 16:65, KLM 4805 requested permission to taxi. It was authorized and at 16:58 it had to backtrack on runway 12 for take-off on runway 30. The tower controller cleared the KLM flight to taxi in the holding position for runway 30 by taxiing down the main runway and leaving it by the third taxiway to its left. KLM 4805 acknowledged the message, and then the tower controller issued an new instruction, that stated to continue the taxi until the end of the runway, where it should backtrack. The KLM 4805 confirmed receiving the message and immediately asked the tower again if they should leave by the taxiway one. The tower responded negative and repeated the last instruction.
+
+At 17:02, the PanAm airplane requested confirmation if they could taxi on the runway. The tower controller confimerd, adding that they should leave trough the third taxiway to their left. At 17:03, the tower controller confimed the loacion of the KLM 4805 on the runway, that they just passed the taxiway C-4, intructing that they should perform an 180\textdegree turn at the end of the entrance and report for ATC clearance.
+
+As a response to the previous query, the tower controller warned both airplane that the runway center lights were out of service. Furtheremore, the controller repeated the instroction that the PanAm 1736 must leave the main runway trough the third taxiway to their left and report when they have left the runway.
+
+At 17:05 Kml 4805 reported that they are ready for take-off and were given instruction for a Papa beacon departure. The airplane's crew repreaeted the instructions and followed up with "We are now at takeoff". The brake were released adn the take-off roll started.
+
+The tower controller knew that PanAm 1736 was still on the main runway and replied "OK \ldots Stand by for takeoff, I will call you.". This message was ssent at the same time with the PanAm's transmission "No \ldots we're still taxiing down the runway, the Clipper 1736.". This simultaneous transmissions, caused a shriil nois in the KLM's cockpit.
+
+The tower replied with "Papa Alpha 1736 report runway clear.", at which point the PanAm responded with "OK, will report when we're clear.". The KML flight engineere asked the capitan: "Is he not clear then?". After the captian repreaed the question, he anseers emphatically with "OH, yes".
+
+Subsequently, KLM 4805 ran for 20 seconds before the previous communication took place and collided with the PanAm aeroplane. The KLM crew tried to climb and the PanAm crew turend the aircraft to the left and applied full power. The KLM aircraft was airborned but the two fusselages skidded and the tail of the PanAm's tail. The KLM aircraft flew 150 meters and crashed, sliding 300 meters and in the end bursting into flames.
+
+The control tower received no further communications from either aircrafts. There were no eyewitnesses to the collision.
+
+## Losses
+
+From the KML 4805 aircraft all the crew members(14) and passengers(234) died and from the PanAm 1736 9 crew members and 317(+9 due to injuries) passengers died. Both aeroplanes were completely destroied to the collision and the post-impact fire. The runway of the airport was also damaged by the impact and the fire. The cost of repairs amounted to more than 16 million pesetas at the time of the report.
+
+## Relevant information
+
+One important astpect that has to be mentioned is the weather conditions that made it extremly difficult to indefity objects in the proximity. The runway visibility was reduced from 3km at 16:30 to 300m at the time of the impact.
+
+Moreover, the runway center lights were out of service at that time, which made difficult the assesment of the position in the case of PanAm, which missed the taxiway, on which it was supposed to exit trough.
+
+
 
 # Defining accidents (max 5 points)
 
@@ -39,6 +82,7 @@ output:
 
 ## Identifying unsafe control actions (STPA step 1) (max 8 points)
 
+
 ## Identifying causes of the unsafe control actions (STPA step 2) (max 8 points)
 
 # Defining safety controls for the items identified at points 6 and 7 above (max 10 points)
@@ -46,3 +90,12 @@ output:
 # References:
 
 - [Eugene Register-Guard - Mar 28, 1977](https://news.google.com/newspapers?id=j9ZVAAAAIBAJ&sjid=JOADAAAAIBAJ&pg=6267%2C6928131)
+
+- [ASN KLM](https://aviation-safety.net/database/record.php?id=19770327-1)
+
+- [ASN PAN AM](https://aviation-safety.net/database/record.php?id=19770327-0)
+
+  https://www.bbc.com/news/av/magazine-35695521/the-co-pilot-who-survived-the-tenerife-aircraft-disaster
+  https://www.smithsonianmag.com/videos/category/history/this-1977-plane-crash-occurred-right-on-the-_1/
+  http://www.project-tenerife.com/engels/index.htm
+  https://www.telegraph.co.uk/travel/comment/tenerife-airport-disaster/

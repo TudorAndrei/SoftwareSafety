@@ -29,6 +29,7 @@ output:
 
 
 # Problem/system description
+
 ## Introduction
 
 This a report on the aircraft accident that occurred on 27th of March in 1977, between a Boeing 747-121 operated by Pan American World Airways and Boeing 747-206B operated by KLM Royal Dutch Airlines, on the Tenerife-Los Rodeos International Airport(Spain). This was considered the worst airplane accident in history before 2001, and now is the second worst, after the 9/11 terrorist attack. The crash resulted in both aircrafts being destroyed and written off(damaged beyond repair), 583 people killed and 61 injured.
@@ -70,7 +71,6 @@ Moreover, the runway center lights were out of service at that time, which made 
 
 Another thing that must be mentioned is that all the crew members of both KLM and PanAm aircraft were highly experienced personell, with thousands of hours of fligying time and hundreds of hours of Beoing 747 flight time.
 
-\pagebreak
 
 # Defining accidents
 An **accident** can be define as an undesired or unplanned event that results in a loss, including loss of human life or human injury, property damage, environmental pollution, mission loss, etc. In order to find a cause for the accidents, they have to be put in context. In this case, the following accidents occurred:

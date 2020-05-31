@@ -2,7 +2,6 @@
 title: "Tenerife airport disaster"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 author: "Tudor Andrei Dumitrascu"
-
 document_class: report
 fontsize: 12pt
 header-includes:
@@ -23,6 +22,7 @@ output:
         number_sections: true
         extra_dependencies: xcolor
 ---
+
 \pagebreak
 \tableofcontents
 \pagebreak
@@ -68,16 +68,18 @@ One important aspect that has to be mentioned is the weather conditions that mad
 
 Moreover, the runway center lights were out of service at that time, which made difficult the assessment of the position in the case of PanAm, which missed the taxiway, on which it was supposed to exit trough.
 
+Another thing that must be mentioned is that all the crew members of both KLM and PanAm aircraft were highly experienced personell, with thousands of hours of fligying time and hundreds of hours of Beoing 747 flight time.
 
+\pagebreak
 
 # Defining accidents
-An **accident** can be define as undesired or unplanned event that results in a loss, including loss of human life or human injury, property damage, environmental pollution, mission loss, etc. In order to find a cause for the accidents, they have to be put in context. In this case, the following accidents occurred:
+An **accident** can be define as an undesired or unplanned event that results in a loss, including loss of human life or human injury, property damage, environmental pollution, mission loss, etc. In order to find a cause for the accidents, they have to be put in context. In this case, the following accidents occurred:
 
 - (A1): KLM aircraft took off without clearance;
 - (A2): Misunderstanding between the ATC and the KLM crew;
 - (A3): PanAm aircraft still present on the runway
 
-The severity of the accidents could further be assesed using the following scale:
+The severity of the accidents could further be assessed using the following scale:
 
 Level | Human loss      | Equipment loss                        | Airport loss
 :-:   | ---             | ---                                   | --- |
@@ -94,11 +96,11 @@ Considering the table above, the Tenerife airport accident, resulted in the foll
 
 
 # Identifying hazards
-In order to identify the hazards, the definition of the accident or loss is used with the additional safety critaria that will be imposed:
+In order to identify the hazards, the definition of the accident or loss is used with the additional safety criteria that will be imposed:
 
 - (H1): Runway Incursion:
 
-  Runway Incursion^[[source](https://web.archive.org/web/20071009153522/http://www.faa.gov/news/fact_sheets/news_story.cfm?newsId=9612)] is defined, in this case, as an occurence at an airport involving the incorrect presence of aircraft on the runway.
+  Runway Incursion^[[source](https://web.archive.org/web/20071009153522/http://www.faa.gov/news/fact_sheets/news_story.cfm?newsId=9612)] is defined, in this case, as an occurrence at an airport involving the incorrect presence of aircraft on the runway.
 
 - (H2): Conflict of trajectories that resulted in insufficient distance between aircraft, vehicle or people.
 
@@ -166,13 +168,13 @@ After the investigation, the following recommendations were made:
 
 - Ground radars should be installed at all air carrier airports.
 
-- Commerical aircraft should not taxi when the visibility ins uder 150 meters unless taxi indicators or other visual aids are operational.
+- Commercial aircraft should not taxi when the visibility ins under 150 meters unless taxi indicators or other visual aids are operational.
 
-- Landing lights hould be on, when an aircraft is moving.
+- Landing lights should be on, when an aircraft is moving.
 
-- Redudant means for takeoff clearance confirmations should be used at all airport.
+- Redundant means for takeoff clearance confirmations should be used at all airport.
 
-- In oder to minimize human error, the optimum number of crew members should be reasearched.
+- In order to minimize human error, the optimum number of crew members should be researched.
 
 # References:
 

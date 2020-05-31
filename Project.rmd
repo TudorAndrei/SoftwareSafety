@@ -2,7 +2,8 @@
 title: "Tenerife airport disaster"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 author: "Tudor Andrei Dumitrascu"
-document_class: document
+
+document_class: report
 fontsize: 12pt
 header-includes:
  - \usepackage{fancyhdr}
@@ -27,8 +28,7 @@ output:
 \pagebreak
 
 
-# Problem/system description (max 5 points)
-
+# Problem/system description
 ## Introduction
 
 This a report on the aircraft accident that occurred on 27th of March in 1977, between a Boeing 747-121 operated by Pan American World Airways and Boeing 747-206B operated by KLM Royal Dutch Airlines, on the Tenerife-Los Rodeos International Airport(Spain). This was considered the worst airplane accident in history before 2001, and now is the second worst, after the 9/11 terrorist attack. The crash resulted in both aircrafts being destroyed and written off(damaged beyond repair), 583 people killed and 61 injured.
@@ -42,50 +42,137 @@ Initially the KLM passengers were not permitted to leave the airplane, but after
 
 When the Las Palmas airport was operational again, the PanAm 1736 crew prepared for departure to Las Palmas, the final destination. When they attempted to taxi on the taxiway leading to runway 12, they discovered that they were blocked by KLM 4805. Due to the insufficient clearance for the aircraft to pass the KLM aircraft, they were compelled to wait for the former to start to taxi. The passengers were not allowed to leave the aeroplane, the whole time the airplane was in the airport.
 
-At 16:65, KLM 4805 requested permission to taxi. It was authorized and at 16:58 it had to backtrack on runway 12 for take-off on runway 30. The tower controller cleared the KLM flight to taxi in the holding position for runway 30 by taxiing down the main runway and leaving it by the third taxiway to its left. KLM 4805 acknowledged the message, and then the tower controller issued an new instruction, that stated to continue the taxi until the end of the runway, where it should backtrack. The KLM 4805 confirmed receiving the message and immediately asked the tower again if they should leave by the taxiway one. The tower responded negative and repeated the last instruction.
+At 16:65, KLM 4805 requested permission to taxi. It was authorized and at 16:58 it had to backtrack on runway 12 for take-off on runway 30. The air traffic controller(ATC),in this case the airport tower controller,controller cleared the KLM flight to taxi in the holding position for runway 30 by taxiing down the main runway and leaving it by the third taxiway to its left. KLM 4805 acknowledged the message, and then the ATC issued an new instruction, that stated to continue the taxi until the end of the runway, where it should backtrack. The KLM 4805 confirmed receiving the message and immediately asked the ATC again if they should leave by the taxiway one. The ATC responded negative and repeated the last instruction.
 
-At 17:02, the PanAm airplane requested confirmation if they could taxi on the runway. The tower controller confimerd, adding that they should leave trough the third taxiway to their left. At 17:03, the tower controller confimed the loacion of the KLM 4805 on the runway, that they just passed the taxiway C-4, intructing that they should perform an 180\textdegree turn at the end of the entrance and report for ATC clearance.
+At 17:02, the PanAm airplane requested confirmation if they could taxi on the runway. The ATC confirmed, adding that they should leave trough the third taxiway to their left. At 17:03, the ATC confirmed the location of the KLM 4805 on the runway, that they just passed the taxiway C-4, instructing that they should perform an 180\textdegree turn at the end of the entrance and report for ATC clearance.
 
-As a response to the previous query, the tower controller warned both airplane that the runway center lights were out of service. Furtheremore, the controller repeated the instroction that the PanAm 1736 must leave the main runway trough the third taxiway to their left and report when they have left the runway.
+As a response to the previous query, the ATC warned both airplane that the runway center lights were out of service. Furthermore, the controller repeated the instruction that the PanAm 1736 must leave the main runway trough the third taxiway to their left and report when they have left the runway.
 
-At 17:05 Kml 4805 reported that they are ready for take-off and were given instruction for a Papa beacon departure. The airplane's crew repreaeted the instructions and followed up with "We are now at takeoff". The brake were released adn the take-off roll started.
+At 17:05 KLM 4805 reported that they are ready for take-off and were given instruction for a Papa beacon departure. The airplane's crew repeated the instructions and followed up with "We are now at takeoff". The brake were released and the take-off roll started.
 
-The tower controller knew that PanAm 1736 was still on the main runway and replied "OK \ldots Stand by for takeoff, I will call you.". This message was ssent at the same time with the PanAm's transmission "No \ldots we're still taxiing down the runway, the Clipper 1736.". This simultaneous transmissions, caused a shriil nois in the KLM's cockpit.
+The ATC knew that PanAm 1736 was still on the main runway and replied "OK \ldots Stand by for takeoff, I will call you.". This message was sent at the same time with the PanAm's transmission "No \ldots we're still taxiing down the runway, the Clipper 1736.". This simultaneous transmissions, caused a shrill noise in the KLM's cockpit.
 
-The tower replied with "Papa Alpha 1736 report runway clear.", at which point the PanAm responded with "OK, will report when we're clear.". The KML flight engineere asked the capitan: "Is he not clear then?". After the captian repreaed the question, he anseers emphatically with "OH, yes".
+The ATC replied with "Papa Alpha 1736 report runway clear.", at which point the PanAm responded with "OK, will report when we're clear.". The KLM flight engineers asked the Capitan: "Is he not clear then?". After the captain repeated the question, he answers emphatically with "OH, yes".
 
-Subsequently, KLM 4805 ran for 20 seconds before the previous communication took place and collided with the PanAm aeroplane. The KLM crew tried to climb and the PanAm crew turend the aircraft to the left and applied full power. The KLM aircraft was airborned but the two fusselages skidded and the tail of the PanAm's tail. The KLM aircraft flew 150 meters and crashed, sliding 300 meters and in the end bursting into flames.
+Subsequently, KLM 4805 ran for 20 seconds before the previous communication took place and collided with the PanAm aeroplane. The KLM crew tried to climb and the PanAm crew turned the aircraft to the left and applied full power. The KLM aircraft was airborne but the two fuselages skidded and the tail of the PanAm's tail. The KLM aircraft flew 150 meters and crashed, sliding 300 meters and in the end bursting into flames.
 
-The control tower received no further communications from either aircrafts. There were no eyewitnesses to the collision.
+The control ATC received no further communications from either aircrafts. There were no eyewitnesses to the collision.
 
 ## Losses
 
-From the KML 4805 aircraft all the crew members(14) and passengers(234) died and from the PanAm 1736 9 crew members and 317(+9 due to injuries) passengers died. Both aeroplanes were completely destroied to the collision and the post-impact fire. The runway of the airport was also damaged by the impact and the fire. The cost of repairs amounted to more than 16 million pesetas at the time of the report.
+From the KLM 4805 aircraft all the crew members(14) and passengers(234) died and from the PanAm 1736 9 crew members and 317(+9 due to injuries) passengers died. Both aeroplanes were completely destroyed to the collision and the post-impact fire. The runway of the airport was also damaged by the impact and the fire. The cost of repairs amounted to more than 16 million pesetas at the time of the report. On top of that, the whole operation of the airport was halted.
 
 ## Relevant information
 
-One important astpect that has to be mentioned is the weather conditions that made it extremly difficult to indefity objects in the proximity. The runway visibility was reduced from 3km at 16:30 to 300m at the time of the impact.
+One important aspect that has to be mentioned is the weather conditions that made it extremely difficult to identify objects in the proximity. The runway visibility was reduced from 3km at 16:30 to 300m at the time of the impact.
 
-Moreover, the runway center lights were out of service at that time, which made difficult the assesment of the position in the case of PanAm, which missed the taxiway, on which it was supposed to exit trough.
+Moreover, the runway center lights were out of service at that time, which made difficult the assessment of the position in the case of PanAm, which missed the taxiway, on which it was supposed to exit trough.
 
 
 
-# Defining accidents (max 5 points)
+# Defining accidents
+An **accident** can be define as undesired or unplanned event that results in a loss, including loss of human life or human injury, property damage, environmental pollution, mission loss, etc. In order to find a cause for the accidents, they have to be put in context. In this case, the following accidents occurred:
 
-# Identifying hazards (max 8 points)
+- (A1): KLM aircraft took off without clearance;
+- (A2): Misunderstanding between the ATC and the KLM crew;
+- (A3): PanAm aircraft still present on the runway
 
-# Defining safety constraints corresponding to hazards (max 8 points)
+The severity of the accidents could further be assesed using the following scale:
 
-# Creating the control structure of the system (max 13 points)
+Level | Human loss      | Equipment loss                        | Airport loss
+:-:   | ---             | ---                                   | --- |
+4     | Loss of life    | Complete destruction of the equipment | Significant damage to facilities and airport shutdown
+3     | Severe injuries | Partial destruction of equipment      | Partial Damage to facilities and major delays
+2     | Minor injuries  | Minor destruction of the equipment    | Minor damage to facilities and delays
+1     | No injuries     | No destruction of the equipment       | Delays
+
+Considering the table above, the Tenerife airport accident, resulted in the following:
+
+1. Loss of life - Human loss 4
+2. Both airplanes were completely destroyed - Equipment loss: 4
+3. Significant damage to the airport facilities and major disruption of the airport operations - Airport loss: 4
+
+
+# Identifying hazards
+In order to identify the hazards, the definition of the accident or loss is used with the additional safety critaria that will be imposed:
+
+- (H1): Runway Incursion:
+
+  Runway Incursion^[[source](https://web.archive.org/web/20071009153522/http://www.faa.gov/news/fact_sheets/news_story.cfm?newsId=9612)] is defined, in this case, as an occurence at an airport involving the incorrect presence of aircraft on the runway.
+
+- (H2): Conflict of trajectories that resulted in insufficient distance between aircraft, vehicle or people.
+
+- (H3): Misunderstanding between ATC & KLM 4805.
+
+# Defining safety constraints corresponding to hazards
+
+Considering the previously identified hazards, the following safety system constraints can be defined:
+
+- (SC1 for H1): The ATC must ensure that there is no aircraft, vehicle or people on the runway when an aircraft is landing or taking-off.
+- (SC2 for H1): The ATC must ensure that there is no aircraft, vehicle or people on the runway when an aircraft is in a position for landing or taking-off.
+- (SC3 for H2): The ATC must ensure that separation between the aircrafts is maintained.
+- (SC4 for H2): The ATC must provide conflict alerts
+- (SC5 for H3): The ATC must use proper clear and simple terminology.
+
+# Creating the control structure of the system
+
+In the following figure the control structure of the system of airport is shown, at the time of the accident.
+
+![Control Structure](./figs/structure)
+
+The diagram contains commands and feedback mechanisms given among the involved parties:
+
+- The ATC gives commands and clearance to both aircrafts.
+- The Aircrafts request clearance or give status updates
+- The interaction between the two aircrafts is only trough the radio equipment which can be only used by one party at a time.
 
 # STPA
 
-## Identifying unsafe control actions (STPA step 1) (max 8 points)
+## Identifying unsafe control actions (STPA step 1)
+
+In this section I will identify the inadequate controls of the system that lead to hazardous state.
+
+### Control action required for safety that is not provided not followed
+
+- CA01: Stand-by for clearance command not respected by the KML crew(H2).
+
+### Unsafe control action performed
+
+- CA02: The KLM crew decided to take off without checking again, after the interference.(H3)
+- CA03: The use of ambiguous language. (H3)
+
+### Control action provided at the wrong time
+
+- CA04: The PanAm aircraft missed the exit from the runway. (H1)
+- CA05: The PanAm transmission, interfered with the ATC transmission.(H3)
 
 
-## Identifying causes of the unsafe control actions (STPA step 2) (max 8 points)
+## Identifying causes of the unsafe control actions (STPA step 2)
 
-# Defining safety controls for the items identified at points 6 and 7 above (max 10 points)
+In this section I will determine the cause for each of the violations of the safety constraints:
+
+- The KLM had waited for a long time in the airport, and the passengers had to wait in the aircraft during this time. Moreover, the KLM captain was under great stress due to concern about the legal aspects of the Dutch duty time limits and worsening weather conditions. (CA01, CA02).
+- The fog and the out-of-service runway lights, made it difficult for the PanAm crew to navigate and find the runway exit. (CA03).
+- Due to the technology limitations, two equipment cannot broadcast at the same time on the radio channel. (CA04)
+- Both crews had difficulty understanding the instructions. (CA03)
+
+# Defining safety controls
+
+After the investigation, the following recommendations were made:
+
+- The used of precise standardized terminology. Furthermore, all personnel involved in commercial aeronautical communications are fluent In English and speak with minimal accent.
+
+- The words "take off" should never be used in an ATC clearance.
+
+- Ground radars should be installed at all air carrier airports.
+
+- Commerical aircraft should not taxi when the visibility ins uder 150 meters unless taxi indicators or other visual aids are operational.
+
+- Landing lights hould be on, when an aircraft is moving.
+
+- Redudant means for takeoff clearance confirmations should be used at all airport.
+
+- In oder to minimize human error, the optimum number of crew members should be reasearched.
 
 # References:
 
@@ -95,7 +182,10 @@ Moreover, the runway center lights were out of service at that time, which made 
 
 - [ASN PAN AM](https://aviation-safety.net/database/record.php?id=19770327-0)
 
-  https://www.bbc.com/news/av/magazine-35695521/the-co-pilot-who-survived-the-tenerife-aircraft-disaster
-  https://www.smithsonianmag.com/videos/category/history/this-1977-plane-crash-occurred-right-on-the-_1/
-  http://www.project-tenerife.com/engels/index.htm
-  https://www.telegraph.co.uk/travel/comment/tenerife-airport-disaster/
+- https://www.bbc.com/news/av/magazine-35695521/the-co-pilot-who-survived-the-tenerife-aircraft-disaster
+
+- https://www.smithsonianmag.com/videos/category/history/this-1977-plane-crash-occurred-right-on-the-_1/
+
+- http://www.project-tenerife.com/engels/index.htm
+
+- https://www.telegraph.co.uk/travel/comment/tenerife-airport-disaster/

@@ -69,7 +69,9 @@ One important aspect that has to be mentioned is the weather conditions that mad
 
 Moreover, the runway center lights were out of service at that time, which made difficult the assessment of the position in the case of PanAm, which missed the taxiway, on which it was supposed to exit trough.
 
-Another thing that must be mentioned is that all the crew members of both KLM and PanAm aircraft were highly experienced personell, with thousands of hours of fligying time and hundreds of hours of Beoing 747 flight time.
+Another thing that must be mentioned is that all the crew members of both KLM and PanAm aircraft were highly experienced personnel, with thousands of hours of flying and hundreds of hours of Boeing 747 flight time.
+
+\pagebreak
 
 
 # Defining accidents
@@ -118,7 +120,7 @@ Considering the previously identified hazards, the following safety system const
 
 # Creating the control structure of the system
 
-In the following figure the control structure of the system of airport is shown, at the time of the accident.
+In order to fully understand the situation, the control structure of the system in shown, which displays all involving parties.
 
 ![Control Structure](./figs/structure)
 
@@ -129,6 +131,8 @@ The diagram contains commands and feedback mechanisms given among the involved p
 - The interaction between the two aircrafts is only trough the radio equipment which can be only used by one party at a time.
 
 # STPA
+
+System-Theoretic Process Analysis(STPA), is hazard analysis method based on the STAMP causality mode. This technique of analyzing includes design errors, software flaws, cognitively complex human decision making and organizational factors that contribute to accidents.
 
 ## Identifying unsafe control actions (STPA step 1)
 
@@ -168,13 +172,15 @@ After the investigation, the following recommendations were made:
 
 - Ground radars should be installed at all air carrier airports.
 
-- Commercial aircraft should not taxi when the visibility ins under 150 meters unless taxi indicators or other visual aids are operational.
+- Commercial aircraft should not taxi when the visibility is under 150 meters unless taxi indicators or other visual aids are operational.
 
 - Landing lights should be on, when an aircraft is moving.
 
 - Redundant means for takeoff clearance confirmations should be used at all airport.
 
 - In order to minimize human error, the optimum number of crew members should be researched.
+
+All the upper mentioned points above, if incorporated, will lead to less accidents. Another important aspect that is revealed is that a low number of hazards is not correlated to the severity of the accident.
 
 # References:
 
@@ -184,10 +190,10 @@ After the investigation, the following recommendations were made:
 
 - [ASN PAN AM](https://aviation-safety.net/database/record.php?id=19770327-0)
 
-- https://www.bbc.com/news/av/magazine-35695521/the-co-pilot-who-survived-the-tenerife-aircraft-disaster
+- [PanAm Co-Pilot Interview](https://www.bbc.com/news/av/magazine-35695521/the-co-pilot-who-survived-the-tenerife-aircraft-disaster)
 
-- https://www.smithsonianmag.com/videos/category/history/this-1977-plane-crash-occurred-right-on-the-_1/
+- [SmithsonianMag accient article](https://www.smithsonianmag.com/videos/category/history/this-1977-plane-crash-occurred-right-on-the-_1/)
 
-- http://www.project-tenerife.com/engels/index.htm
+- [Website dedicated for the Tenerife airport disaster](http://www.project-tenerife.com/engels/index.htm)
 
-- https://www.telegraph.co.uk/travel/comment/tenerife-airport-disaster/
+- [Telegraph accident article](https://www.telegraph.co.uk/travel/comment/tenerife-airport-disaster/)
